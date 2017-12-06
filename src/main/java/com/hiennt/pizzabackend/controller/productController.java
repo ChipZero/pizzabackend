@@ -37,7 +37,7 @@ public class productController {
             productService.addNewPro(product);
             result.put("code", "200");
             return result.toString();
-        }catch (Exception e){
+        }catch (NullPointerException e){
             e.printStackTrace();
             result.put("code", "999");
             return result.toString();

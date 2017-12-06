@@ -97,4 +97,15 @@ public class Product implements java.io.Serializable {
 		this.proPrice = proPrice;
 	}
 
+	@Override
+	public String toString() {
+		return "Product{" +
+				"proId=" + proId +
+				", protype=" + protype +
+				", proName='" + proName + '\'' +
+				", proImage='" + proImage + '\'' +
+				", proDetails='" + proDetails + '\'' +
+				", proPrice='" + proPrice + '\'' +
+				'}';
+	}
 }
