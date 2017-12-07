@@ -16,9 +16,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Table(name = "protype", catalog = "pizzadb")
 public class Protype implements java.io.Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private Integer prtId;
 	private String prtName;
